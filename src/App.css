@@ -1,6 +1,6 @@
 :root {
   --background-color: #fff;
-  --btn-color: #0088ff;
+  --btn-color: #0987f2;
   --btn-text-color: #fff;
   --project-bg: #ffffff00;
   --text-color: #222222f3;
@@ -8,8 +8,8 @@
   --footer-text-color: #909090;
 }
 [data-theme="dark"] {
-  --background-color: #212121;
-  --btn-color: #fff;
+  --background-color: #222;
+  --btn-color: #ffffff;
   --btn-text-color: #222;
   --project-bg: #fff;
   --text-color: #fff;
@@ -61,11 +61,89 @@ h1 {
 p {
   font-size: 16px;
   font-weight: 300;
+  justify-content: center;
 }
 
 .sectionTitile {
   margin-bottom: 30px;
 }
-.btn {
+.hover {
   cursor: pointer;
 }
+
+/* :root {
+  --background-color: #fff;
+  --btn-color: #0987f2;
+  --btn-text-color: #fff;
+  --project-bg: #ffffff00;
+  --text-color: #222222f3;
+  --form-text-color: #555;
+  --footer-text-color: #909090;
+}
+
+[data-theme="dark"] {
+  --background-color: #222;
+  --btn-color: #ffffff;
+  --btn-text-color: #222;
+  --project-bg: #fff;
+  --text-color: #fff;
+  --form-text-color: #fff;
+  --footer-text-color: #bbb;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+body {
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 50px;
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+p {
+  font-family: "Roboto Mono", "monospace";
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h2,
+h3 {
+  font-size: 20px;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  justify-content: center;
+}
+
+.sectionTitile {
+  margin-bottom: 30px;
+}
+
+.hover {
+  cursor: pointer;
+} */

@@ -48,12 +48,12 @@ const Hero = () => {
             ​<img src={linkedinicon} alt="linkedinicon" />
           </a>
         </span>
-        <p>
+        <p className={styles.des}>
           Building the future of websites with the modern cutting-edge
           technologies web apps.
         </p>
         <a href={CV} download>
-          <button className="btn">Resume</button>
+          <button className="hover">Resume</button>
         </a>
       </div>
     </section>
