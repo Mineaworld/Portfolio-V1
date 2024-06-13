@@ -20,10 +20,19 @@
   a:hover {
     transform: scale(1.05);
   }
+}
+.projectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (width >= 800px) {
   .projectContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+    padding: 0 30px;
   }
 }
