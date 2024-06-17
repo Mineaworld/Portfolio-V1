@@ -32,7 +32,7 @@ const Hero = () => {
       </div>
       <div className={styles.info}>
         <h1>Dy Minea</h1>
-        <h2>Full-stack Developer</h2>
+        <h2>Front-End Developer</h2>
         <span>
           <a href="https://x.com/Minea_Blue" target="_blank">
             ​<img src={twittericon} alt="twittericon" />
