@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import heroimage from "../../assets/hero-img.png";
+import heroimage from "../../assets/ProfileM.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";

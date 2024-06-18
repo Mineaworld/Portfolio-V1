@@ -1,9 +1,6 @@
 import styles from "./Projects.module.css";
 import ProjectsCard from "../../Common/ProjectsCard";
-import viberr from "../../assets/viberr.png";
-import freshBurger from "../../assets/fresh-burger.png";
-import hipsster from "../../assets/hipsster.png";
-import fitLift from "../../assets/fitlift.png";
+import bank from "../../assets/Bank.png";
 
 function Projects() {
   return (
@@ -12,13 +9,8 @@ function Projects() {
       <div className={styles.projectsContainer}></div>
       {/* Add project web or github link */}
       <div className={styles.projectContainer}>
-        <ProjectsCard
-          src={viberr}
-          link="https://www.viber.com/"
-          h3="Viberr"
-          p="Streaming App"
-        />
-        <ProjectsCard
+        <ProjectsCard src={bank} link="" h3="HooBank" p="Banking website" />
+        {/* <ProjectsCard
           src={freshBurger}
           link=""
           h3="FreshBurger"
@@ -30,7 +22,7 @@ function Projects() {
           h3="FitLift"
           p="Fitness web application"
         />
-        <ProjectsCard src={hipsster} link="" h3="Hipsster" p="Glasses Shop" />
+        <ProjectsCard src={hipsster} link="" h3="Hipsster" p="Glasses Shop" /> */}
       </div>
     </section>
   );
