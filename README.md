@@ -1,7 +1,7 @@
-# Portfolio-Clean-M
+# Clean-Portfolio
 
 ## Project Description
-Portfolio-Clean-M is a clean and responsive personal portfolio designed to showcase my projects and skills. This portfolio provides a straight-to-the-point presentation of my work, making it easy for potential employers or clients to see my capabilities and past projects.
+Clean-Portfolio is a clean and responsive personal portfolio designed to showcase my projects and skills. This portfolio provides a straight-to-the-point presentation of my work, making it easy for potential employers or clients to see my capabilities and past projects.
 
 ## Features
 - Clean and modern design
@@ -19,8 +19,7 @@ To set up and run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/Mineaworld/Portfolio-Clean-M.git
-   cd Portfolio-Clean-M
+   git clone https://github.com/Mineaworld/Clean-Portfolio.git
 
 
 2. **Install dependencies:**
